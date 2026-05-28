@@ -1,0 +1,27 @@
+# Requirements for NER + Entity Linking pipeline
+# Tested on Python 3.10+
+
+# Core NER model
+gliner>=0.2.0
+
+# Deep learning backend
+torch>=2.0.0
+transformers>=4.38.0
+accelerate>=0.27.0
+tokenizers>=0.15.0
+
+# Dense retrieval — Group A (SapBERT + FAISS)
+# Use faiss-gpu for large corpora (>50k entities), faiss-cpu otherwise
+faiss-gpu>=1.7.4
+# faiss-cpu>=1.7.4
+
+# LLM disambiguation — Group A
+openai>=1.30.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.24.0
+
+# External data sources required (not installable via pip):
+# - UMLS MRCONSO.RRF  — requires UMLS license: https://www.nlm.nih.gov/research/umls/
+# - RxNorm RXNCONSO.RRF — available via RxNorm full release: https://www.nlm.nih.gov/research/umls/rxnorm/
