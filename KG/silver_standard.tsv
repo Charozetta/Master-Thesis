@@ -1,0 +1,201 @@
+doc_id	chunk_id	subject	predicate	object	evidence	confidence	evaluation_layer	object_normalized
+ped_b-cell_v2_2025	12	autologous HCT	ACHIEVES_OUTCOME	improved PFS	Disease status at the time of transplant was predictive of both PFS and OS for pediatric and AYA patients undergoing autologous HCT	HIGH	context_attribute	improved pfs
+ped_b-cell_v2_2025	12	R-VICI	COMBINED_WITH	rituximab	R-VICI (rituximab, vincristine, ifosfamide, carboplatin, idarubicin, and dexamethasone)	HIGH	core_relation	rituximab
+ped_b-cell_v2_2025	12	R-VICI	COMBINED_WITH	vincristine	R-VICI (rituximab, vincristine, ifosfamide, carboplatin, idarubicin, and dexamethasone)	HIGH	core_relation	vincristine
+ped_b-cell_v2_2025	12	R-VICI	COMBINED_WITH	ifosfamide	R-VICI (rituximab, vincristine, ifosfamide, carboplatin, idarubicin, and dexamethasone)	HIGH	core_relation	ifosfamide
+ped_b-cell_v2_2025	12	CAR T-cell therapy	CONTRAINDICATED_IN	relapsed or refractory BL or other LBCL	CAR T-cell therapy is currently not recommended in the guidelines for the treatment of pediatric patients with relapsed or refractory BL or other LBCL	HIGH	core_relation	relapsed or refractory bl or other lbcl
+ped_b-cell_v2_2025	12	R-CYVE	INDICATED_FOR_STAGE	second-line	R-CYVE (if not previously received as part of initial therapy) or R-ICE are included as options for second-line therapy.	HIGH	context_attribute	second-line
+ped_b-cell_v2_2025	12	R-ICE	INDICATED_FOR_STAGE	relapsed or refractory	R-ICE and R-VICI ... were the most commonly used regimens in the relapsed or refractory setting.	HIGH	context_attribute	relapsed or refractory
+ped_b-cell_v2_2025	12	R-VICI	INDICATED_FOR_STAGE	relapsed or refractory	R-ICE and R-VICI ... were the most commonly used regimens in the relapsed or refractory setting.	HIGH	context_attribute	relapsed or refractory
+ped_b-cell_v2_2025	12	allogeneic HCT	INDICATED_FOR_STAGE	post-second-line therapy	Second-line therapy followed by consolidation with autologous or allogeneic HCT ... is recommended	HIGH	context_attribute	post-second-line therapy
+ped_b-cell_v2_2025	12	autologous HCT	INDICATED_FOR_STAGE	post-second-line therapy	Second-line therapy followed by consolidation with autologous or allogeneic HCT ... is recommended	HIGH	context_attribute	post-second-line therapy
+ped_b-cell_v2_2025	12	CAR T-cell therapy	TREATS	relapsed or refractory DLBCL	CAR T-cell therapy (CD19-directed) ... for the treatment of relapsed or refractory DLBCL in adult patients after ≥2 prior systemic therapy regimens.	HIGH	core_relation	relapsed or refractory dlbcl
+ped_b-cell_v2_2025	12	R-ICE	TREATS	relapsed or refractory NHL	R-ICE and R-VICI ... were the most commonly used regimens in the relapsed or refractory setting.	HIGH	core_relation	relapsed or refractory nhl
+ped_b-cell_v2_2025	12	R-VICI	TREATS	relapsed or refractory NHL	R-ICE and R-VICI ... were the most commonly used regimens in the relapsed or refractory setting.	HIGH	core_relation	relapsed or refractory nhl
+ped_b-cell_v2_2025	12	CAR T-cell therapy	USED_IN_POPULATION	pediatric and AYA	Ongoing clinical trials are evaluating CAR T-cell therapy and bispecific antibodies ... for relapsed or refractory mature B-cell lymphomas in pediatric and AYA patients.	HIGH	context_attribute	pediatric and aya
+ped_b-cell_v2_2025	12	CAR T-cell therapy	USED_IN_POPULATION	adults	CAR T-cell therapy (CD19-directed) ... for the treatment of relapsed or refractory DLBCL in adult patients	HIGH	context_attribute	adults
+ped_b-cell_v2_2025	12	COG ANHL 1131 (Arm C1)	USED_IN_POPULATION	low risk of relapse	Chemotherapy regimens such as COG ANHL 1131 (Arm C1 regimen) ... can be considered for patients with a low risk of relapse	HIGH	context_attribute	low risk of relapse
+ped_b-cell_v2_2025	12	COG ANHL 1131 (Arm C1)	USED_IN_POPULATION	initial Group A disease	patients with initial Group A disease or patients with low-stage [stage I or II] Group B treated according to POG9219	HIGH	context_attribute	initial group a disease
+ped_b-cell_v2_2025	12	COG ANHL 1131 (Arm C1)	USED_IN_POPULATION	low-stage Group B (stage I or II)	patients with initial Group A disease or patients with low-stage [stage I or II] Group B treated according to POG9219	HIGH	context_attribute	low-stage group b (stage i or ii)
+ped_b-cell_v2_2025	12	R-CYVE	USED_IN_POPULATION	low risk of relapse	two cycles of R-CYVE (without consolidative HCT) can be considered for patients with a low risk of relapse	HIGH	context_attribute	low risk of relapse
+ped_b-cell_v2_2025	12	R-CYVE	USED_IN_POPULATION	initial Group A disease	patients with initial Group A disease or patients with low-stage [stage I or II] Group B treated according to POG9219	HIGH	context_attribute	initial group a disease
+ped_b-cell_v2_2025	12	R-CYVE	USED_IN_POPULATION	low-stage Group B (stage I or II)	patients with initial Group A disease or patients with low-stage [stage I or II] Group B treated according to POG9219	HIGH	context_attribute	low-stage group b (stage i or ii)
+ped_b-cell_v2_2025	12	R-ICE	USED_IN_POPULATION	children and adolescents	analyzed the outcomes of 639 children and adolescents with relapsed or refractory NHL	HIGH	context_attribute	children and adolescents
+ped_b-cell_v2_2025	12	R-VICI	USED_IN_POPULATION	children and adolescents	analyzed the outcomes of 639 children and adolescents with relapsed or refractory NHL	HIGH	context_attribute	children and adolescents
+ped_b-cell_v2_2025	12	autologous HCT	USED_IN_POPULATION	pediatric and AYA	Disease status at the time of transplant was predictive of both PFS and OS for pediatric and AYA patients undergoing autologous HCT	HIGH	context_attribute	pediatric and aya
+ped_b-cell_v2_2025	12	axicabtagene ciloleucel	USED_IN_POPULATION	adults	approved for relapsed or refractory DLBCL in adults	HIGH	context_attribute	adults
+vte_v2_2025	36	Fondaparinux	ALTERNATIVE_TO	DTI	Fondaparinux has been rarely associated with HIT.	MEDIUM	core_relation	dti
+vte_v2_2025	36	Warfarin	COMBINED_WITH	DTI	DTIs, particularly argatroban, can increase the INR substantially during warfarin co-therapy	HIGH	core_relation	dti
+vte_v2_2025	36	Warfarin	COMBINED_WITH	bivalirudin	Bivalirudin slightly prolongs the INR during co-therapy	HIGH	core_relation	bivalirudin
+vte_v2_2025	36	Warfarin	COMBINED_WITH	fondaparinux	Discontinue DTI or fondaparinux after at least 5 to 7 days overlap	HIGH	core_relation	fondaparinux
+vte_v2_2025	36	Bivalirudin	CONTRAINDICATED_IN	history of anaphylaxis to bivalirudin	Anaphylaxis has occurred with bivalirudin.	MEDIUM	core_relation	history of anaphylaxis to bivalirudin
+vte_v2_2025	36	Intravenous Immunoglobulin	HAS_DOSE	1 g/kg	1 g/kg IV daily x2	HIGH	core_relation	1 g/kg
+vte_v2_2025	36	Warfarin	HAS_DOSE	5 mg	Initial dose 5 mg (consider lower dose for patients: age >75 years, CYP2C9 inhibitors, poor oral intake, liver disease)	HIGH	core_relation	5 mg
+vte_v2_2025	36	Warfarin	HAS_ELIGIBILITY	platelet count 150,000/μL or return to baseline	Initiate once platelet count 150,000/μL or return to baseline	HIGH	context_attribute	platelet count 150,000/μl or return to baseline
+vte_v2_2025	36	Warfarin	HAS_ELIGIBILITY	INR reaches intended target range (≥2)	when the INR reaches intended target range ( ≥2 )	HIGH	context_attribute	inr reaches intended target range (≥2)
+vte_v2_2025	36	Warfarin	HAS_ELIGIBILITY	at least 5 to 7 days overlap with DTI or fondaparinux	Discontinue DTI or fondaparinux after at least 5 to 7 days overlap	HIGH	context_attribute	at least 5 to 7 days overlap with dti or fondaparinux
+vte_v2_2025	36	Intravenous Immunoglobulin	HAS_FREQUENCY	daily x2	1 g/kg IV daily x2	HIGH	core_relation	daily x2
+vte_v2_2025	36	Intravenous Immunoglobulin	HAS_ROUTE	IV	1 g/kg IV daily x2	HIGH	core_relation	iv
+vte_v2_2025	36	Warfarin	HAS_ROUTE	oral	poor oral intake	MEDIUM	core_relation	oral
+vte_v2_2025	36	Intravenous Immunoglobulin	INDICATED_FOR_STAGE	second-line	Used as a second-line agent.	HIGH	context_attribute	second-line
+vte_v2_2025	36	Bivalirudin	TREATS	heparin-induced thrombocytopenia	Bivalirudin for the treatment of patients with confirmed or suspected heparin-induced thrombocytopenia.	HIGH	core_relation	heparin-induced thrombocytopenia
+vte_v2_2025	36	Intravenous Immunoglobulin	TREATS	refractory HIT	Intravenous Immunoglobulin (refractory HIT, autoimmune HIT, or patients at high risk of bleeding who have HIT)	HIGH	core_relation	refractory hit
+vte_v2_2025	36	Intravenous Immunoglobulin	TREATS	autoimmune HIT	Intravenous Immunoglobulin (refractory HIT, autoimmune HIT, or patients at high risk of bleeding who have HIT)	HIGH	core_relation	autoimmune hit
+vte_v2_2025	36	Intravenous Immunoglobulin	USED_IN_POPULATION	high risk of bleeding who have HIT	Intravenous Immunoglobulin (refractory HIT, autoimmune HIT, or patients at high risk of bleeding who have HIT)	HIGH	context_attribute	high risk of bleeding who have hit
+vte_v2_2025	36	Warfarin	USED_IN_POPULATION	aged >75 years	consider lower dose for patients: age >75 years	HIGH	context_attribute	aged >75 years
+vte_v2_2025	36	Warfarin	USED_IN_POPULATION	CYP2C9 inhibitors	consider lower dose for patients: ... CYP2C9 inhibitors	HIGH	context_attribute	cyp2c9 inhibitors
+vte_v2_2025	36	Warfarin	USED_IN_POPULATION	poor oral intake	consider lower dose for patients: ... poor oral intake	HIGH	context_attribute	poor oral intake
+vte_v2_2025	36	Warfarin	USED_IN_POPULATION	liver disease	consider lower dose for patients: ... liver disease	HIGH	context_attribute	liver disease
+vte_v2_2025	36	chromogenic factor X activity	USED_IN_POPULATION	DTI and warfarin co-therapy	chromogenic factor X activity, which is not affected by DTIs, can be used to monitor warfarin during co-therapy	HIGH	context_attribute	dti and warfarin co-therapy
+ped_hodgkin_v2_2025	43	AEPA	COMBINED_WITH	CAPDAC	AEPA followed by 4 cycles of CAPDAC	HIGH	core_relation	capdac
+ped_hodgkin_v2_2025	43	CAPDAC	COMBINED_WITH	ISRT	patients who experience inadequate response are treated with 4 cycles of CAPDAC and ISRT	HIGH	core_relation	isrt
+ped_hodgkin_v2_2025	43	CAPDAC	COMBINED_WITH	RNRT	patients who experience inadequate response are treated with 4 cycles of CAPDAC and RNRT	HIGH	core_relation	rnrt
+ped_hodgkin_v2_2025	43	COPDAC	COMBINED_WITH	ISRT	patients who experience inadequate response are treated with 2 cycles of COPDAC and ISRT	HIGH	core_relation	isrt
+ped_hodgkin_v2_2025	43	ISRT	COMBINED_WITH	COPDAC	patients who experience inadequate response are treated with 2 cycles of COPDAC and ISRT	HIGH	core_relation	copdac
+ped_hodgkin_v2_2025	43	OEPA	COMBINED_WITH	COPDAC	OEPA followed by 4 cycles of COPDAC	HIGH	core_relation	copdac
+ped_hodgkin_v2_2025	43	nivolumab-AVD	HAS_DOSE	6 cycles	6 cycles are recommended prior to response assessment	HIGH	core_relation	6 cycles
+ped_hodgkin_v2_2025	43	nivolumab-AVD	HAS_STRENGTH	preferred	nivolumab-AVD according to SWOG S1826 as the preferred strategies	HIGH	core_relation	preferred
+ped_hodgkin_v2_2025	43	AEPA	INDICATED_FOR_STAGE	initial therapy	after 2 initial cycles of AEPA, patients who experience adequate response are treated with 4 cycles of CAPDAC	HIGH	context_attribute	initial therapy
+ped_hodgkin_v2_2025	43	CAPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience adequate response are treated with 4 cycles of CAPDAC	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	CAPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience inadequate response are treated with 4 cycles of CAPDAC and RNRT	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	CAPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience adequate response are treated with 4 cycles of CAPDAC	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	CAPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience inadequate response are treated with 4 cycles of CAPDAC and ISRT	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	COPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience adequate response are treated with 2 cycles of COPDAC	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	COPDAC	INDICATED_FOR_STAGE	post-initial therapy	patients who experience inadequate response are treated with 2 cycles of COPDAC and ISRT	HIGH	context_attribute	post-initial therapy
+ped_hodgkin_v2_2025	43	HLHR13	INDICATED_FOR_STAGE	certain circumstances	Treatment according to HLHR13 and TG-3 of EuroNet PHL-C1 may be useful in certain circumstances.	HIGH	context_attribute	certain circumstances
+ped_hodgkin_v2_2025	43	ISRT	INDICATED_FOR_STAGE	sites of inadequate response	ISRT (to all sites and boost to sites of inadequate response)	HIGH	context_attribute	sites of inadequate response
+ped_hodgkin_v2_2025	43	OEPA	INDICATED_FOR_STAGE	initial therapy	after 2 initial cycles of OEPA	HIGH	context_attribute	initial therapy
+ped_hodgkin_v2_2025	43	OEPA	INDICATED_FOR_STAGE	initial therapy	following 2 initial cycles of OEPA, patients who experience adequate response are treated with 4 cycles of CAPDAC	HIGH	context_attribute	initial therapy
+ped_hodgkin_v2_2025	43	RNRT	INDICATED_FOR_STAGE	sites of inadequate response	RNRT to sites of inadequate response	HIGH	context_attribute	sites of inadequate response
+ped_hodgkin_v2_2025	43	TG-3	INDICATED_FOR_STAGE	certain circumstances	Treatment according to HLHR13 and TG-3 of EuroNet PHL-C1 may be useful in certain circumstances.	HIGH	context_attribute	certain circumstances
+ped_hodgkin_v2_2025	43	ABVD	USED_IN_POPULATION	pediatric patients >18 years of age	ABVD regimen, as well as other adult regimens may be considered for pediatric patients >18 years of age	HIGH	context_attribute	pediatric patients >18 years of age
+ped_hodgkin_v2_2025	43	Bv-AVD	USED_IN_POPULATION	≥12 years of age	Bv-AVD is only recommended for patients ≥12 years of age	HIGH	context_attribute	≥12 years of age
+ped_hodgkin_v2_2025	43	Bv-AVD	USED_IN_POPULATION	unable to receive or tolerate a checkpoint inhibitor	for patients that are unable to receive or tolerate a checkpoint inhibitor (CPI)	HIGH	context_attribute	unable to receive or tolerate a checkpoint inhibitor
+ped_hodgkin_v2_2025	43	nivolumab-AVD	USED_IN_POPULATION	≥12 years of age	Nivolumab-AVD has only been studied in patients ≥12 years of age	HIGH	context_attribute	≥12 years of age
+ped_cns_v3_2025	48	oral etoposide	ACHIEVES_OUTCOME	partial response	Three out of the four patients with medulloblastoma exhibited a partial response	HIGH	context_attribute	partial response
+ped_cns_v3_2025	48	oral etoposide	ACHIEVES_OUTCOME	complete response	one with a complete response and one with a partial response	HIGH	context_attribute	complete response
+ped_cns_v3_2025	48	bevacizumab	ALTERNATIVE_TO	FDA-approved biosimilar	bevacizumab (or a U.S. Food and Drug Administration [FDA]-approved biosimilar)	HIGH	core_relation	fda-approved biosimilar
+ped_cns_v3_2025	48	lomustine	ALTERNATIVE_TO	carmustine	single-agent nitrosoureas (lomustine or carmustine)	HIGH	core_relation	carmustine
+ped_cns_v3_2025	48	nitrosoureas	ALTERNATIVE_TO	carmustine	single-agent nitrosoureas (lomustine or carmustine)	HIGH	core_relation	carmustine
+ped_cns_v3_2025	48	bevacizumab	COMBINED_WITH	RT	addition of bevacizumab to RT plus TMZ	HIGH	core_relation	rt
+ped_cns_v3_2025	48	bevacizumab	COMBINED_WITH	TMZ	addition of bevacizumab to RT plus TMZ	HIGH	core_relation	tmz
+ped_cns_v3_2025	48	oral etoposide	HAS_DOSE	daily for 21 consecutive days	received daily oral etoposide for 21 consecutive days	HIGH	core_relation	daily for 21 consecutive days
+ped_cns_v3_2025	48	oral etoposide	HAS_FREQUENCY	courses repeating every 28 days	courses repeating every 28 days pending bone marrow recovery	HIGH	core_relation	courses repeating every 28 days
+ped_cns_v3_2025	48	bevacizumab	HAS_ROUTE	single agent	reserved use of bevacizumab...as a single agent in the palliative setting	HIGH	core_relation	single agent
+ped_cns_v3_2025	48	oral etoposide	HAS_ROUTE	oral	daily oral etoposide	HIGH	core_relation	oral
+ped_cns_v3_2025	48	bevacizumab	INDICATED_FOR_STAGE	palliative setting	reserved use of bevacizumab...as a single agent in the palliative setting	HIGH	context_attribute	palliative setting
+ped_cns_v3_2025	48	bevacizumab	INDICATED_FOR_STAGE	newly diagnosed non-pontine high-grade gliomas	treatment of pediatric patients...with newly diagnosed non-pontine highgrade gliomas	HIGH	context_attribute	newly diagnosed non-pontine high-grade gliomas
+ped_cns_v3_2025	48	maximal safe resection	INDICATED_FOR_STAGE	primary treatment	For primary treatment of pediatric diffuse high-grade gliomas, the NCCN Guidelines recommend maximal safe resection	HIGH	context_attribute	primary treatment
+ped_cns_v3_2025	48	oral etoposide	INDICATED_FOR_STAGE	recurrent	children with recurrent brain and solid tumors received daily oral etoposide	HIGH	context_attribute	recurrent
+ped_cns_v3_2025	48	oral etoposide	INDICATED_FOR_STAGE	palliative	may receive palliative chemotherapy with oral etoposide	HIGH	context_attribute	palliative
+ped_cns_v3_2025	48	bevacizumab	TREATS	diffuse high-grade gliomas	addition of bevacizumab to RT plus TMZ for treatment of pediatric patients...with newly diagnosed non-pontine highgrade gliomas	HIGH	core_relation	diffuse high-grade gliomas
+ped_cns_v3_2025	48	oral etoposide	TREATS	recurrent brain tumors	demonstrating activity for etoposide in recurrent brain tumors	HIGH	core_relation	recurrent brain tumors
+ped_cns_v3_2025	48	oral etoposide	TREATS	medulloblastoma	Three out of the four patients with medulloblastoma exhibited a partial response	HIGH	core_relation	medulloblastoma
+ped_cns_v3_2025	48	oral etoposide	TREATS	ependymoma	two of the five patients with ependymoma had a response	HIGH	core_relation	ependymoma
+ped_cns_v3_2025	48	bevacizumab	USED_IN_POPULATION	poor performance status	Patients with poor performance status may receive palliative chemotherapy with...bevacizumab	HIGH	context_attribute	poor performance status
+ped_cns_v3_2025	48	bevacizumab	USED_IN_POPULATION	recurrent or progressive disease	reserved use of bevacizumab...as a single agent in the palliative setting for patients with recurrent or progressive disease	HIGH	context_attribute	recurrent or progressive disease
+ped_cns_v3_2025	48	bevacizumab	USED_IN_POPULATION	pediatric patients aged 3-18 years	pediatric patients ( N=121; aged between 3 and 18 years)	HIGH	context_attribute	pediatric patients aged 3-18 years
+ped_cns_v3_2025	48	oral etoposide	USED_IN_POPULATION	children	28 children with recurrent brain and solid tumors received daily oral etoposide	HIGH	context_attribute	children
+ped_cns_v3_2025	48	oral etoposide	USED_IN_POPULATION	poor performance status	Patients with poor performance status may receive palliative chemotherapy with oral etoposide	HIGH	context_attribute	poor performance status
+colon_v4_2025	5	SBRT	ACHIEVES_OUTCOME	durable local control	SBRT or other hypofractionated regimens with BED10>100 Gy are preferred...to provide durable local control.	HIGH	context_attribute	durable local control
+colon_v4_2025	5	hypofractionated regimens	ACHIEVES_OUTCOME	durable local control	SBRT or other hypofractionated regimens with BED10>100 Gy are preferred...to provide durable local control.	HIGH	context_attribute	durable local control
+colon_v4_2025	5	nivolumab and hyaluronidase-nvhy	ALTERNATIVE_TO	IV nivolumab	for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab.	HIGH	core_relation	iv nivolumab
+colon_v4_2025	5	Encorafenib	COMBINED_WITH	cetuximab	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen	HIGH	core_relation	cetuximab
+colon_v4_2025	5	Encorafenib	COMBINED_WITH	panitumumab	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen	HIGH	core_relation	panitumumab
+colon_v4_2025	5	SBRT	COMBINED_WITH	other metastatic-directed therapies	SBRT ean be used atone or in conjunetion with other metastatic-directed therapies for patients with oligometastatic disease.	HIGH	core_relation	other metastatic-directed therapies
+colon_v4_2025	5	HAI chemotherapy	CONTRAINDICATED_IN	concurrent bevacizumab or other VEGF inhibitors	HAI chemotherapy cannot be delivered with concurrent bevacizumab or other VEGF inhibitors	HIGH	core_relation	concurrent bevacizumab or other vegf inhibitors
+colon_v4_2025	5	SBRT	HAS_DOSE	30-60 Gy	SBRT: 30-60 Gy (typieally in 3-5 fractions).	HIGH	core_relation	30-60 gy
+colon_v4_2025	5	Encorafenib + cetuximab + FOLFOX	HAS_EVIDENCE_LEVEL	category 2a	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2A recommendation	HIGH	core_relation	category 2a
+colon_v4_2025	5	Encorafenib + cetuximab + FOLFOX	HAS_EVIDENCE_LEVEL	category 2b	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2B recommendation	HIGH	core_relation	category 2b
+colon_v4_2025	5	Encorafenib + panitumumab + FOLFOX	HAS_EVIDENCE_LEVEL	category 2a	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2A recommendation	HIGH	core_relation	category 2a
+colon_v4_2025	5	SBRT	HAS_FREQUENCY	3-5 fractions	SBRT: 30-60 Gy (typieally in 3-5 fractions).	HIGH	core_relation	3-5 fractions
+colon_v4_2025	5	nivolumab and hyaluronidase-nvhy	HAS_ROUTE	subcutaneous injection	nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab.	HIGH	core_relation	subcutaneous injection
+colon_v4_2025	5	SBRT	HAS_STRENGTH	preferred	SBRT or other hypofractionated regimens with BED10>100 Gy are preferred in the context of oligometastatic disease	HIGH	core_relation	preferred
+colon_v4_2025	5	Encorafenib + cetuximab + FOLFOX	INDICATED_FOR_STAGE	initial therapy for advanced or metastatic disease	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2A recommendation for BRAF V600E mutation positive	HIGH	context_attribute	initial therapy for advanced or metastatic disease
+colon_v4_2025	5	Encorafenib + cetuximab + FOLFOX	INDICATED_FOR_STAGE	second-line and subsequent therapy	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2B recommendation for BRAF V600E mutation positive	HIGH	context_attribute	second-line and subsequent therapy
+colon_v4_2025	5	Encorafenib + panitumumab + FOLFOX	INDICATED_FOR_STAGE	initial therapy for advanced or metastatic disease	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2A recommendation for BRAF V600E mutation positive	HIGH	context_attribute	initial therapy for advanced or metastatic disease
+colon_v4_2025	5	Encorafenib + panitumumab + FOLFOX	INDICATED_FOR_STAGE	second-line and subsequent therapy	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2B recommendation for BRAF V600E mutation positive	HIGH	context_attribute	second-line and subsequent therapy
+colon_v4_2025	5	SBRT	INDICATED_FOR_STAGE	oligometastatic disease	Consider SBRT for patients with oligemetastatic disease.	HIGH	context_attribute	oligometastatic disease
+colon_v4_2025	5	Encorafenib + cetuximab + FOLFOX	USED_IN_POPULATION	BRAF V600E mutation positive	Encorafenib + (cetuximab or panitumumab) + FOLFOX regimen added as a category 2A recommendation for BRAF V600E mutation positive	HIGH	context_attribute	braf v600e mutation positive
+colon_v4_2025	5	SBRT	USED_IN_POPULATION	oligometastatic disease	SBRT or other hypofractionated regimens with BED10>100 Gy are preferred in the context of oligometastatic disease	HIGH	context_attribute	oligometastatic disease
+colon_v4_2025	5	SBRT	USED_IN_POPULATION	larger lesions or more extensive disease, if sufficient uninvolved liver/lung	SBRT can be considered for larger lesions or more extensive disease, if there is sufficient uninvolved liver/lung	HIGH	context_attribute	larger lesions or more extensive disease, if sufficient uninvolved liver/lung
+colon_v4_2025	5	SBRT	USED_IN_POPULATION	limited number of liver or lung metastases	In patients with a limited number of liver or lung metastases, ablative radiotherapy to the metastatic site can be considered	HIGH	context_attribute	limited number of liver or lung metastases
+colon_v4_2025	5	ablative radiotherapy	USED_IN_POPULATION	unresectable metastasis	Ablative radiotherapy can be considered for patients with unresectable metastasis	HIGH	context_attribute	unresectable metastasis
+colon_v4_2025	5	ablative radiotherapy	USED_IN_POPULATION	nonoperative approach	Ablative radiotherapy can be considered...in patients preferring a nonoperative approach.	HIGH	context_attribute	nonoperative approach
+testicular_v2_2025	57	BEP	ALTERNATIVE_TO	EP	three cycles of BEP or four cycles of EP	HIGH	core_relation	ep
+testicular_v2_2025	57	BEP	HAS_DOSE	three cycles	chemotherapy with three cycles of BEP	HIGH	core_relation	three cycles
+testicular_v2_2025	57	EP	HAS_DOSE	four cycles	four cycles of EP	HIGH	core_relation	four cycles
+testicular_v2_2025	57	EP	HAS_DOSE	two cycles	chemotherapy with two cycles of EP	HIGH	core_relation	two cycles
+testicular_v2_2025	57	BEP	HAS_STRENGTH	preferred	both BEP and EP are preferred regimens	HIGH	core_relation	preferred
+testicular_v2_2025	57	BEP	HAS_STRENGTH	category 1	both category 1; both preferred	HIGH	core_relation	category 1
+testicular_v2_2025	57	EP	HAS_STRENGTH	preferred	both BEP and EP are preferred regimens	HIGH	core_relation	preferred
+testicular_v2_2025	57	BEP	INDICATED_FOR_STAGE	stage IIA nonseminoma	the NCCN Panel recommends either nerve-sparing RPLND or chemotherapy with three cycles of BEP or four cycles of EP as primary treatment options	HIGH	context_attribute	stage iia nonseminoma
+testicular_v2_2025	57	BEP	INDICATED_FOR_STAGE	stage IIA seminoma	the NCCN Panel recommends first-line chemotherapy with three cycles of BEP or four cycles of EP	HIGH	context_attribute	stage iia seminoma
+testicular_v2_2025	57	BEP	INDICATED_FOR_STAGE	stage IIB nonseminoma	patients may receive first-line chemotherapy with either three cycles of BEP or four cycles of EP (both preferred)	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	BEP	INDICATED_FOR_STAGE	stage IIB nonseminoma	first-line chemotherapy (three cycles of BEP or four cycles of EP; both preferred) is recommended	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	BEP	INDICATED_FOR_STAGE	stage IIB nonseminoma	first-line chemotherapy with either three cycles of BEP or four cycles of EP (both category 1; both preferred)	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	EP	INDICATED_FOR_STAGE	stage IIA seminoma	the NCCN Panel recommends first-line chemotherapy with three cycles of BEP or four cycles of EP	HIGH	context_attribute	stage iia seminoma
+testicular_v2_2025	57	EP	INDICATED_FOR_STAGE	stage IIB nonseminoma	patients may receive first-line chemotherapy with either three cycles of BEP or four cycles of EP (both preferred)	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	EP	INDICATED_FOR_STAGE	stage IIB nonseminoma	first-line chemotherapy (three cycles of BEP or four cycles of EP; both preferred) is recommended	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	EP	INDICATED_FOR_STAGE	stage IIB nonseminoma	first-line chemotherapy with either three cycles of BEP or four cycles of EP (both category 1; both preferred)	HIGH	context_attribute	stage iib nonseminoma
+testicular_v2_2025	57	RPLND	INDICATED_FOR_STAGE	stage II tumors with somatic type malignancy	RPLND is preferred as primary treatment for stage II tumors with somatic type malignancy	HIGH	context_attribute	stage ii tumors with somatic type malignancy
+testicular_v2_2025	57	nerve-sparing RPLND	INDICATED_FOR_STAGE	stage IIA nonseminoma	the NCCN Panel recommends either nerve-sparing RPLND or chemotherapy with three cycles of BEP or four cycles of EP as primary treatment options	HIGH	context_attribute	stage iia nonseminoma
+testicular_v2_2025	57	surveillance	INDICATED_FOR_STAGE	patients with pN0 disease after primary nerve-sparing RPLND	surveillance is recommended for this group	HIGH	context_attribute	patients with pn0 disease after primary nerve-sparing rplnd
+testicular_v2_2025	57	surveillance	INDICATED_FOR_STAGE	patients with pN1 disease after primary nerve-sparing RPLND	Surveillance is also the preferred option for patients with pN1 disease	HIGH	context_attribute	patients with pn1 disease after primary nerve-sparing rplnd
+testicular_v2_2025	57	bleomycin-free regimen	USED_IN_POPULATION	higher risk for bleomycin-related complications	A bleomycin-free regimen should be given to patients at higher risk for bleomycin-related complications	HIGH	context_attribute	higher risk for bleomycin-related complications
+testicular_v2_2025	57	bleomycin-free regimen	USED_IN_POPULATION	aged >50 years	patients aged >50 years	HIGH	context_attribute	aged >50 years
+testicular_v2_2025	57	bleomycin-free regimen	USED_IN_POPULATION	diminished renal function	those with diminished renal function	HIGH	context_attribute	diminished renal function
+testicular_v2_2025	57	first-line chemotherapy (BEP or EP)	USED_IN_POPULATION	multifocal disease	Chemotherapy is considered particularly appropriate if the patient has multifocal disease	HIGH	context_attribute	multifocal disease
+testicular_v2_2025	57	nerve-sparing RPLND	USED_IN_POPULATION	high-volume center	Referral to a high-volume center is recommended for those patients who undergo nerve-sparing RPLND	HIGH	context_attribute	high-volume center
+cns_v2_2025	8	ivosidenib	ALTERNATIVE_TO	vorasidenib	Ivosidenib for IDH1 mutation (if unable to tolerate vorasidenib)	HIGH	core_relation	vorasidenib
+cns_v2_2025	8	ivosidenib	HAS_EVIDENCE_LEVEL	category 2b	category 2B recommendation	HIGH	core_relation	category 2b
+cns_v2_2025	8	vorasidenib	HAS_EVIDENCE_LEVEL	category 1	category 1 for residual/measurable disease after surgery/biopsy	HIGH	core_relation	category 1
+cns_v2_2025	8	vorasidenib	HAS_EVIDENCE_LEVEL	category 2b	category 2B recommendation	HIGH	core_relation	category 2b
+cns_v2_2025	8	ivosidenib	HAS_STRENGTH	useful in certain circumstances	"Useful in Certain Circumstances
+Modified: Ivosidenib for IDH1 mutation..."	HIGH	core_relation	useful in certain circumstances
+cns_v2_2025	8	vorasidenib	HAS_STRENGTH	preferred	"Preferred
+Modified: Vorasidenib (if residual disease is present)..."	HIGH	core_relation	preferred
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	WHO grade 2	Ivosidenib for IDH1 mutant grade 2.	HIGH	context_attribute	who grade 2
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	adjuvant treatment, WHO grade 3	Adjuvant Treatment WHO grade 3, KPS ≥60.	HIGH	context_attribute	adjuvant treatment, who grade 3
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	GLIO-A 4	Ivosidenib for IDH1 mutation... (Also for GLIO-A 4).	HIGH	context_attribute	glio-a 4
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	WHO grade 3	Ivosidenib for IDH1 mutation (category 2 B for WHO grade 3).	HIGH	context_attribute	who grade 3
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	recurrent/progressive, WHO grade 3	Ivosidenib for IDH1 mutation (Also for recurrent or progressive disease, WHO grade 3, K P S ≥60, GLIO-4).	HIGH	context_attribute	recurrent/progressive, who grade 3
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	adjuvant treatment, WHO grade 3	Adjuvant Treatment, KPS < 60 grade 3	HIGH	context_attribute	adjuvant treatment, who grade 3
+cns_v2_2025	8	ivosidenib	INDICATED_FOR_STAGE	recurrent/progressive, WHO grade 3	Ivosidenib for IDH1 mutation (if unable to tolerate vorasidenib) (Also for recurrent or progressive disease, WHO grade 3, K P S ≥60, GLIO-4)	HIGH	context_attribute	recurrent/progressive, who grade 3
+cns_v2_2025	8	vorasidenib	INDICATED_FOR_STAGE	residual/measurable disease after surgery/biopsy	category 1 for residual/measurable disease after surgery/biopsy	HIGH	context_attribute	residual/measurable disease after surgery/biopsy
+cns_v2_2025	8	vorasidenib	INDICATED_FOR_STAGE	WHO grade 2	WHO grade 2, KPS ≥60	HIGH	context_attribute	who grade 2
+cns_v2_2025	8	vorasidenib	INDICATED_FOR_STAGE	GLIO-A 4	Vorasidenib for IDH1 or IDH2 mutations (category 2B) recommendation (Also for GLIO-A 4).	HIGH	context_attribute	glio-a 4
+cns_v2_2025	8	vorasidenib	INDICATED_FOR_STAGE	WHO grade 3	Vorasidenib for IDH1 or IDH2 mutations (category 2B for WHO grade 3).	HIGH	context_attribute	who grade 3
+cns_v2_2025	8	vorasidenib	INDICATED_FOR_STAGE	adjuvant treatment, WHO grade 3	Adjuvant Treatment, KPS < 60 grade 3	HIGH	context_attribute	adjuvant treatment, who grade 3
+cns_v2_2025	8	ivosidenib	REQUIRES_BIOMARKER	IDH1 mutation	Ivosidenib for IDH1 mutation	HIGH	core_relation	idh1 mutation
+cns_v2_2025	8	vorasidenib	REQUIRES_BIOMARKER	IDH1 or IDH2 mutations	Vorasidenib (if residual disease is present)...for IDH1 or IDH2 mutations.	HIGH	core_relation	idh1 or idh2 mutations
+cns_v2_2025	8	ivosidenib	TREATS	oligodendroglioma	Ivosidenib for IDH1 mutation (if unable to tolerate vorasidenib)	HIGH	core_relation	oligodendroglioma
+cns_v2_2025	8	vorasidenib	TREATS	oligodendroglioma	Vorasidenib (if residual disease is present)...for IDH1 or IDH2 mutations.	HIGH	core_relation	oligodendroglioma
+cns_v2_2025	8	vorasidenib	TREATS	oligodendroglioma	Vorasidenib (if residual disease is present)...for IDH1 or IDH2 mutations.	HIGH	core_relation	oligodendroglioma
+cns_v2_2025	8	ivosidenib	USED_IN_POPULATION	KPS ≥60	Adjuvant Treatment WHO grade 3, KPS ≥60.	HIGH	context_attribute	kps ≥60
+cns_v2_2025	8	vorasidenib	USED_IN_POPULATION	KPS ≥60	WHO grade 2, KPS ≥60	HIGH	context_attribute	kps ≥60
+thyroid_v1_2025	89	Adjuvant RT	ACHIEVES_OUTCOME	improved survival	Adjuvant RT, especially when combined with concurrent chemotherapy, is associated with improved survival	HIGH	context_attribute	improved survival
+thyroid_v1_2025	89	EBRT	ACHIEVES_OUTCOME	increase survival	EBRT can increase survival in some patients	HIGH	context_attribute	increase survival
+thyroid_v1_2025	89	EBRT	ACHIEVES_OUTCOME	improve local control	EBRT can also improve local control	HIGH	context_attribute	improve local control
+thyroid_v1_2025	89	Higher RT dose	ACHIEVES_OUTCOME	OS	Higher RT dose is associated with OS in patients with unresected ATC	HIGH	context_attribute	os
+thyroid_v1_2025	89	dabrafenib plus trametinib	ACHIEVES_OUTCOME	ORR 69%	The confirmed ORR was 69%(95% Cl, 41%-89%)	HIGH	context_attribute	orr 69%
+thyroid_v1_2025	89	dabrafenib plus trametinib	ACHIEVES_OUTCOME	ORR 56%	analysis including 36 patients showed an ORR of 56% ( 95% CI, 38.1%- 72.1% )	HIGH	context_attribute	orr 56%
+thyroid_v1_2025	89	neurosurgical resection	ALTERNATIVE_TO	RT	For solitary brain lesions, either neurosurgical resection or RT is recommended	HIGH	core_relation	rt
+thyroid_v1_2025	89	Adjuvant RT	COMBINED_WITH	concurrent chemotherapy	Adjuvant RT, especially when combined with concurrent chemotherapy	HIGH	core_relation	concurrent chemotherapy
+thyroid_v1_2025	89	RT	COMBINED_WITH	concurrent chemotherapy	RT, usually with concurrent chemotherapy	HIGH	core_relation	concurrent chemotherapy
+thyroid_v1_2025	89	dabrafenib	COMBINED_WITH	trametinib	Dabrafenib plus trametinib combination is an option for BRAF V600E mutation-positive tumors	HIGH	core_relation	trametinib
+thyroid_v1_2025	89	doxorubicin	COMBINED_WITH	cisplatin	Doxorubicin combined with cisplatin is an option based on a small randomized trial	HIGH	core_relation	cisplatin
+thyroid_v1_2025	89	dabrafenib	HAS_DOSE	150 mg	dabrafenib 150 mg , twice daily	HIGH	core_relation	150 mg
+thyroid_v1_2025	89	trametinib	HAS_DOSE	2 mg	trametinib 2 mg , once daily	HIGH	core_relation	2 mg
+thyroid_v1_2025	89	paclitaxel plus carboplatin	HAS_EVIDENCE_LEVEL	category 2b	these are category 2B options based on lowquality evidence and less Panel consensus	HIGH	core_relation	category 2b
+thyroid_v1_2025	89	chemoradiation	HAS_FREQUENCY	weekly chemotherapy regimens	the ATA Guidelines recommend using weekly chemotherapy regimens	HIGH	core_relation	weekly chemotherapy regimens
+thyroid_v1_2025	89	dabrafenib	HAS_FREQUENCY	twice daily	dabrafenib 150 mg , twice daily	HIGH	core_relation	twice daily
+thyroid_v1_2025	89	IMRT	HAS_STRENGTH	encouraged	IMRT technique is encouraged	HIGH	core_relation	encouraged
+thyroid_v1_2025	89	EBRT	INDICATED_FOR_STAGE	palliation	can be used for palliation (eg, to prevent asphyxiation)	HIGH	context_attribute	palliation
+thyroid_v1_2025	89	RT	INDICATED_FOR_STAGE	solitary brain lesions	For solitary brain lesions, either neurosurgical resection or RT is recommended	HIGH	context_attribute	solitary brain lesions
+thyroid_v1_2025	89	RT	INDICATED_FOR_STAGE	unresected or incompletely resected disease	For unresected or incompletely resected disease, RT, usually with concurrent chemotherapy, should commence as quickly as possible	HIGH	context_attribute	unresected or incompletely resected disease
+thyroid_v1_2025	89	dabrafenib plus trametinib	REQUIRES_BIOMARKER	BRAF V600E mutation	Dabrafenib plus trametinib combination is an option for BRAF V600E mutation-positive tumors	HIGH	core_relation	braf v600e mutation
+thyroid_v1_2025	89	entrectinib	REQUIRES_BIOMARKER	NTRK gene fusion	larotrectinib, entrectinib, or repotrectinib are options for NTRK gene fusion-positive tumors	HIGH	core_relation	ntrk gene fusion
+thyroid_v1_2025	89	larotrectinib	REQUIRES_BIOMARKER	NTRK gene fusion	larotrectinib, entrectinib, or repotrectinib are options for NTRK gene fusion-positive tumors	HIGH	core_relation	ntrk gene fusion
+thyroid_v1_2025	89	dabrafenib plus trametinib	TREATS	ATC	FDA approved dabrafenib/trametinib for ATC with BRAF V600E mutation in 2018	HIGH	core_relation	atc
+thyroid_v1_2025	89	enteral nutrition	USED_IN_POPULATION	difficulty swallowing	Enteral nutrition may be useful for some patients who have difficulty swallowing	HIGH	context_attribute	difficulty swallowing
